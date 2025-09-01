@@ -37,3 +37,11 @@ class MainPage:
     def card(self):
         browser.element('.product-card__order-wrap').click()
         browser.element('.navbar-pc__notify').should(have.text('1'))
+
+    def panel_search(self):
+        browser.element('#searchInput').type('Oil').with_(timeout=3).press_enter()
+
+
+    def button_sales(self):
+        browser.element('.btn-switch__btn').click()
+        time.sleep(5)
