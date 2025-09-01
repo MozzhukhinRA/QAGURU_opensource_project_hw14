@@ -1,4 +1,4 @@
-# 🎓 QA.GURU Graduation Project
+# 🎓 QA.GURU WB Project
 
 *Небольшой проект по автоматизации Wildberries, по выбору ПВЗ и добавлению товара*
 
